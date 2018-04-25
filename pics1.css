@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.info{
+	height: auto;
+	width: auto;
+	background-color: #fff;
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 10px;
+	transition: all 0.3s ease-in-out;
+
+}
+.img{
+	background-image: url(images.png);
+	background-repeat: no-repeat;
+	height: 240px;
+	width: 240px;
+}
+.info:hover{
+	box-shadow: 0 0 2em #000000;
+	transform: scale(1.1);
+	
+}

@@ -1,0 +1,60 @@
+#timeline{
+	background:url("line1.png") repeat-y 50.5% 0;
+	min-height:700px;
+	margin:20px 0 20px 0;
+}
+.tl-block{
+	position:relative;
+	width:100%;
+	min-height:100px;
+	bottom:20px;
+}
+.tl-year{
+	background-color:#C3C3C3;
+	display:block;
+	margin:auto;
+	margin-top:30px;
+	border-radius:50%;
+	height:50px;
+	width:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+.tl-year div{
+	color:black;
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	padding-top:18px;
+	text-align:center;
+}
+.tl-event > div{
+	width:34%;
+	position:relative;
+}
+.tl-event div div{
+	border:2px solid #C3C3C3;
+	padding:15px;
+}
+.tl-event div.event-r{
+	float:right;
+	background:url("left.png") no-repeat 0 0;
+	top:-100px;
+	right:50px;
+}
+.tl-event div.event-l{
+	float:left;
+	background:url("right.png") no-repeat top -3px right;
+	top:-100px;
+	left:50px;
+}
+.tl-event div.event-r div{
+	margin-left:40px;
+}
+.tl-event div.event-l div{
+	margin-right:36px;
+}
+p{
+	text-align:justify;
+}

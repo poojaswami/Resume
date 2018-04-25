@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Resume</title>
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+		<link href="assets/css/font-awesome.css" rel="stylesheet"> 
+		<link rel="stylesheet" href="education.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="pics1.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+		<style>
+			*{
+				font-family:Brush Script MT, Brush Script Std, cursive;
+				text-align:justify;
+			}
+			.navbar-brand::first-letter{
+				color:red;
+				font-size:50px;
+			}
+			h2::first-letter{
+				color:red;
+			}
+			h1::first-letter{
+				color:red;
+			}
+			h2{	
+				font-size:50px;
+				font-weight:bold;
+			}
+			.navbar-brand{
+				font-size:30px;
+			}
+			.navbar-inverse{
+				background-color:black;
+			}
+			.navbar-inverse .navbar-nav >li>a{
+				color:red;
+			}
+			#top{
+				padding:10px;
+			}
+			.navbar-nav{
+				margin-left:300px;
+				font-size:20px;
+			}
+			#home{
+				/* The image used */
+				background-image: url("laptop.png");
+
+				/* Set a specific height */
+				min-height: 760px; 
+
+				/* Create the parallax scrolling effect */
+				background-attachment: fixed;
+				background-size: cover;
+				position:relative;
+			}
+			#skills{
+				background-image: url("skill5.jpg");
+				min-height: 760px; 
+				background-attachment: fixed;
+				background-size: cover;
+				position:relative;
+			}
+			#projects{
+				background-image:url('pro.jpg');
+				min-height: 760px; 
+				background-attachment: fixed;
+				background-size: cover;
+				
+			}
+			h1{
+				position:absolute;
+				top:55%;
+				left:40%;
+				font-size:55px;
+				color:black;
+				font-weight:bold;
+			}
+			p,li>label,li,label,h3,#education,.degree{
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			h6{
+				font-size:30px;
+				font-weight:bold;
+			}
+			h4{
+				font-size:17px;
+				font-weight:bold;
+			}
+			#line{
+				margin:0px;
+				padding:0px;
+				background-color:black;
+				height:3px;
+				border:none;
+			}
+			span{
+				color:lightgreen;
+			}
+			div>label{
+				font-size: 15px;
+			}
+			.progress-bar {
+			  transition-duration: 3s;
+			  font-family:Arial, Helvetica, sans-serif;
+			  background-color:#B4A9A0;
+			}
+			.progress{
+			  height: 35px;
+			  
+			}
+			h4{
+				color:red;
+			}
+			h3{
+				color:white;
+			}
+			#div1{
+				top:300px;
+				right:0px;
+				
+			}
+			#div1:hover{
+				width:70px;
+			}
+			#div2{
+				top:350px;
+				right:0px;
+				
+			}
+			#div2:hover{
+				width:70px;
+			}
+			#div3{
+				top:400px;
+				right:0px;
+				
+			}
+			#div3:hover{
+				width:70px;
+			}
+			#div1,#div2,#div3{
+				padding-top:10px;
+				padding-bottom:10px;
+				padding-left:10px;
+				border:2px solid black;
+				border-radius:10px 0 0 10px;
+				height:50px;
+				width:9px;
+				-webkit-transition:width 0.5s;
+				transition:width 0.5s;
+				position:fixed;
+				display:block;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid" id="top">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Pooja Swami</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#projects">My Projects</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#contact">Contact Me</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section id="home">
+			<img src="pattern3.png" height="100%" width="100%" style="position:absolute;top:0px;left:0px;">
+			<img src="pooja.jpg" height="150px" width="150px" class="img-circle" style="position:absolute;top:35%;left:43%;">
+			<h1>My Resume</h1>
+		</section>
+		<section id="about" style="height:auto;overflow:auto;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10" style="margin-top:70px;">
+						<h2 class="text-center">About Me</h2>
+						<div class="row">
+							<article class="col-sm-7">
+								<h6>Objective</h6>
+								<p>An opportunity to work and upgrade oneself,
+								as well as being involved in an organization
+								that believes in gaining a competitive edge and 
+								giving back to the community. I’m presently
+								expanding my solid experience in web designing.
+								I focus on using my interpersonal skills to
+								build good user experience and create a strong
+								interest in my employers. I hope to develop
+								skills in motion design and my knowledge of the 
+								Web, and become an honest asset to the business.
+								As an individual, I’m self-confident you’ll find 
+								me creative, funny and naturally passionate. I’m 
+								a forward thinker, which others may find inspiring
+								when working as a team.</p>
+								<h6>What I Do?</h6>
+								<p>I have been practicing as a web designer for past 8 months.
+								I have a love of colors, elegant styling, and
+								designing.I have lots of experience in the production
+								of CSS3 and HTML5 for modern websites. I love creating
+								awesome designs as per my client's need. I think about user
+								experience when I try to craft something for my clients.</p>
+								<div class="row">
+									<div class="col-sm-6">
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>HTML4/CSS2</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>HTML5/CSS3</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>JQuery</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>Bootstrap</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>MS-Powerpoint,Excel,Word</label></div>
+									</div>
+									<div class="col-sm-6">
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>Javascript</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>Python</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>AngularJS</label></div>
+										<div><span class="glyphicon glyphicon-ok"> &nbsp;</span><label>Ajax</label></div>
+									</div>
+								</div>
+							</article>
+							<aside class="col-sm-5">
+								<div class="panel panel-info" style="margin-top:15px;border:1px solid black;">
+									<div class="panel-heading" id="line"></div><!--panel heading closes -->
+									<div class="panel-body">
+										<img src="pooja.jpg" height="395px" width="439px" class="img-thumbnail text-center"> 
+										<div>
+											<ul class="list-group" style="margin-bottom:0px;">
+												<li class="list-group-item" style="border:none;"><label>Name:&nbsp;</label>Pooja Swami</li>
+												<li class="list-group-item" style="border:none;"><label>Date of Birth:&nbsp;</label>30 May, 1990</li>
+												<li class="list-group-item" style="border:none;"><label>Nationality:&nbsp;</label>Indian</li>
+												<li class="list-group-item" style="border:none;"><label>Native Place:&nbsp;</label>Jaipur, Rajasthan</li>
+												<li class="list-group-item" style="border:none;"><label>Language Known:&nbsp;</label>English & Hindi</li>
+											</ul>
+										</div>
+									</div><!--panel body closes -->
+								</div>
+							</aside>
+						</div>
+					</div>
+					<div class="col-sm-1"></div>
+				</div>
+			</div>
+			<div id="div1"><a href="#"><span class="fa fa-github fa-2x" style="color:red;">&nbsp;&nbsp;</span></a></div>
+			<div id="div2"><a href="#"><span class="fa fa-linkedin-square fa-2x" style="color:red;">&nbsp;&nbsp;</span></a></div>
+			<div id="div3"><a href="#"><span class="fa fa-google-plus-official fa-2x" style="color:red;"></span></a></div>
+		</section>
+		<section id="projects" style="height:auto;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10" style="margin-top:60px;">
+						<h2 class="text-center">My Projects</h2>
+						<div class="info">
+							<a data-toggle="modal" data-target="#mymodal1"><img class="img" src="pic1.png"></a>
+						</div>
+						<div class="info">
+							<a data-toggle="modal" data-target="#mymodal2"><img class="img" src="pic2.png"></a>
+						</div>
+						<div class="info">
+							<a data-toggle="modal" data-target="#mymodal3"><img class="img" src="pic3.png"></a>
+						</div><br>
+						<div class="info">
+							<a data-toggle="modal" data-target="#mymodal4"><img class="img" src="pic4.png"></a>
+						</div>
+						<div class="info">
+							<a data-toggle="modal" data-target="#mymodal5"><img class="img" src="pic5.png"></a>
+						</div>
+						<div class="info">
+							<a data-toggle="modal" data-target="#mymodal6"><img class="img" src="pic6.png"></a>
+						</div>
+					</div>
+					<div class="col-sm-1"></div>
+				</div>
+				<div class="modal fade" id="mymodal1" role="dialog">
+					<div class="modal-dialog" style="height:auto;width:auto;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<a href="#" class="close" data-dismiss="modal">&times;</a>
+							</div>
+							<div class="modal-body">
+								<img src="pic1.png" height="800px" width="1450px">
+							</div>
+						</div>
+					</div>
+				</div><!--modal closes here -->
+				<div class="modal fade" id="mymodal2" role="dialog">
+					<div class="modal-dialog" style="height:auto;width:auto;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<a href="#" class="close" data-dismiss="modal">&times;</a>
+							</div>
+							<div class="modal-body">
+								<img src="pic2.png" height="800px" width="1450px">
+							</div>
+						</div>
+					</div>
+				</div><!--modal closes here -->
+				<div class="modal fade" id="mymodal3" role="dialog">
+					<div class="modal-dialog" style="height:auto;width:auto;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<a href="#" class="close" data-dismiss="modal">&times;</a>
+							</div>
+							<div class="modal-body">
+								<img src="pic3.png" height="800px" width="1450px">
+							</div>
+						</div>
+					</div>
+				</div><!--modal closes here -->
+				<div class="modal fade" id="mymodal4" role="dialog">
+					<div class="modal-dialog" style="height:auto;width:auto;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<a href="#" class="close" data-dismiss="modal">&times;</a>
+							</div>
+							<div class="modal-body">
+								<img src="pic4.png" height="800px" width="1450px">
+							</div>
+						</div>
+					</div>
+				</div><!--modal closes here -->
+				<div class="modal fade" id="mymodal5" role="dialog">
+					<div class="modal-dialog" style="height:auto;width:auto;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<a href="#" class="close" data-dismiss="modal">&times;</a>
+							</div>
+							<div class="modal-body">
+								<img src="pic5.png" height="800px" width="1450px">
+							</div>
+						</div>
+					</div>
+				</div><!--modal closes here -->
+				<div class="modal fade" id="mymodal6" role="dialog">
+					<div class="modal-dialog" style="height:auto;width:auto;">
+						<div class="modal-content">
+							<div class="modal-header">
+								<a href="#" class="close" data-dismiss="modal">&times;</a>
+							</div>
+							<div class="modal-body">
+								<img src="pic6.png" height="800px" width="1450px">
+							</div>
+						</div>
+					</div>
+				</div><!--modal closes here -->
+			</div>
+		</section>
+		<section id="education" style="height:auto; background-color:white;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12" style="margin-top:70px;">
+						<h2 class="text-center">Education</h2>
+						<div id="timeline">
+							<div class="tl-block">
+								<div class="tl-year">
+									<div class="degree">2012-14</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-event">
+									<div class="event-l">
+										<div onmousemove="testmousemove()" onmouseout="testmouseout()" id="mouse">
+											<h4 class="degree">M.Sc.(Applied Operational Research)</h4>
+											<p>University of Delhi,<br>
+											Dept. of Operational Research, South Campus</p>
+										</div>
+									</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-year">
+									<div class="degree">2009-12</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-event">
+									<div class="event-r">
+										<div onmousemove="testmousemove1()" onmouseout="testmouseout1()" id="mouse1">
+											<h4 class="degree">B.Sc.(H)Mathematics</h4>
+											<p>University of Delhi,<br>
+											Motilal Nehru College</p>
+										</div>
+									</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-year">
+									<div class="degree">2008</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-event">
+									<div class="event-l">
+										<div onmousemove="testmousemove2()" onmouseout="testmouseout2()" id="mouse2">
+											<h4 class="degree">Class 12th Science</h4>
+											<p>Kendriya Vidyalaya No.1(AFA),Hyderabad<br>
+											PCM with Informatics Practices<br> with CBSE Board</p>
+										</div>
+									</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-year">
+									<div class="degree">2006</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+							<div class="tl-block">
+								<div class="tl-event">
+									<div class="event-r">
+										<div onmousemove="testmousemove3()" onmouseout="testmouseout3()" id="mouse3">
+											<h4 class="degree">Class 10th</h4>
+											<p>Kendriya Vidyalaya No.1(AFA),Hyderabad<br>
+											with CBSE Board</p>
+										</div>
+									</div>
+								</div><!--tl-year closes -->
+							</div><!--tl-block closes -->
+						</div><!--timeline closes -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills" style="height:760px;overflow:auto;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10" style="margin-top:70px;">
+						<h2 class="text-center">Skills</h2>
+						<div class="row">
+							<div class="col-sm-6">
+								<h3>HTML4/CSS2</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info"
+									role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+									95%
+									</div>
+								</div>
+								<h3>HTML5/CSS3</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+									90%
+									</div>
+								</div>
+								<h3>JQuery</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="30">
+									30%
+									</div>
+								</div>
+								<h3>AngularJS</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+									40%
+									</div>
+								</div>
+								<h3>MS-Powerpoint,Excel,Word</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="95">
+									95%
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<h3>Python</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="60">
+									60%
+									</div>
+								</div>
+								<h3>Bootstrap</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+									80%
+									</div>
+								</div>
+								<h3>Javascript</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+									50%
+									</div>
+								</div>
+								<h3>Ajax</h3>
+								<div class="progress skill-bar">
+									<div class="progress-bar progress-bar-info" role="progressbar"
+									aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+									85%
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-1"></div>
+				</div>
+			</div>
+		</section>
+		<footer id="contact" style="height:auto;background-color:black;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						<h2 class="text-center" style="color:white;">Contact Me</h2>
+						<div class="row">
+							<div class="col-sm-4">
+								<label style="color:white;">Email</label>
+								<p style="color:white;">poojaswami0991@gmail.com</p>
+								<br>
+								<label style="color:white;">Address</label>
+								<p style="color:white;">Agara village, HSR Layout<br>
+								1st Sector, Bangalore</p>
+								<br>
+								<label style="color:white;">Phone No.</label>
+								<p style="color:white;">9654073346</p>
+							</div>
+							<div class="col-sm-4"></div>
+							<div class="col-sm-4">
+								<h5 style="font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:20px;color:white;">I am Social</h5>
+								<a href="#"><span class="fa fa-github fa-3x" style="color:red;">&nbsp;&nbsp;</span></a>
+								<a href="#"><span class="fa fa-linkedin-square fa-3x" style="color:red;">&nbsp;&nbsp;</span></a>
+								<a href="#"><span class="fa fa-google-plus-official fa-3x" style="color:red;"></span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-1"></div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){ 
+			$('.nav li a').click(function(){ 
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+			&& location.hostname == this.hostname){ 
+			var $target = $(this.hash);
+			$target = $target.length && $target 
+			|| $('[name=' + this.hash.slice(1) +']'); 
+			if ($target.length){ 
+			var targetOffset = $target.offset().top;
+			$('html,body')
+			.animate({scrollTop: targetOffset}, 1000); 
+			return false;
+			} 
+			} }); 
+			});
+			
+			$('document').ready(function(){
+				$('.progress .progress-bar').css("width",
+				function(){
+					return $(this).attr("aria-valuenow") + "%";
+				}
+				)
+			});
+			
+		function testmousemove(){
+				document.getElementById("mouse").style.backgroundColor="#C3C3C3";
+			}
+			function testmouseout(){
+				document.getElementById("mouse").style.backgroundColor="white";
+			}
+			function testmousemove1(){
+				document.getElementById("mouse1").style.backgroundColor="#C3C3C3";
+			}
+			function testmouseout1(){
+				document.getElementById("mouse1").style.backgroundColor="white";
+			}
+			function testmousemove2(){
+				document.getElementById("mouse2").style.backgroundColor="#C3C3C3";
+			}
+			function testmouseout2(){
+				document.getElementById("mouse2").style.backgroundColor="white";
+			}
+			function testmousemove3(){
+				document.getElementById("mouse3").style.backgroundColor="#C3C3C3";
+			}
+			function testmouseout3(){
+				document.getElementById("mouse3").style.backgroundColor="white";
+			}
+		</script>
+	</body>
+</html>
+
+
