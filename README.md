@@ -27,4 +27,8 @@ copy the link provided under this heading "Use this URL in production" or
 "Use this URL for development" on rawgit page
 
 
+step5:
+paste the URL in the browser and press enter.
+
+
 
