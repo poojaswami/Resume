@@ -2,8 +2,11 @@
 
 In my Resume Projects I have used folowing thing: 
   -> HTML5/CSS3
+  
   -> Bootstrap
+  
   -> JQuery
+  
   -> Javascript
 
 Steps to run the Resume File:
